@@ -5,3 +5,12 @@
 	path = public
 	url = git@github.com:visika/visika.github.io.git
 	branch = master
+[submodule "themes/archie"]
+	path = themes/archie
+	url = https://github.com/athul/archie.git
+[submodule "themes/ezhil"]
+	path = themes/ezhil
+	url = https://github.com/vividvilla/ezhil.git
+[submodule "themes/hugo-theme-noteworthy"]
+	path = themes/hugo-theme-noteworthy
+	url = https://github.com/kimcc/hugo-theme-noteworthy.git
