@@ -1,4 +1,26 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+baseURL = "https://appunti.mollo.tech/"
+languageCode = "it-it"
+defaultcontentlanguage = "it"
+ismultilingual = true
+title = "Il magazzino mentale di Mariano"
+theme = "archie"
+refLinksErrorLevel = "WARNING"
+refLinksNotFoundURL = "https://appunti.mollo.tech/404.html"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  subtitle = "Non fate caso al disordine"
+
+[[menu.main]]
+name = "Appunti"
+url = "/appunti"
+
+[languages]
+  [languages.it]
+    weight = 1
+  [languages.en]
+    title = "Mariano's Mind dump"
+    weight = 2
